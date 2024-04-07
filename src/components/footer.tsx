@@ -15,7 +15,7 @@ export default function Footer() {
                                         <Image fill={true} objectFit="cover" src={'/logo.webp'} alt="lens corporation" />
                                     </div>
                                 </div>
-                                <p className="font-poppins mb-4 text-center md:text-start">Tomorrow's Vision, Today!</p>
+                                <p className="font-poppins mb-4 text-center md:text-start">Tomorrow&apos;s Vision, Today!</p>
                                 <div className="flex items-center justify-center gap-5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"

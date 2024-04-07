@@ -20,7 +20,7 @@ export default function AboutUs() {
                     </div>
                     <div className="lg:w-1/2 ">
                         <h3 className=" max-md:my-4 md:mb-8  text-4xl font-medium md:text-[44px] font-poppins text-primary  max-md:text-center">Welcome to LENS</h3>
-                        <p className="font-poppins mt-1 mb-4 max-md:text-center text-[#393939e6] rgba(57, 57, 57, .9)      ">We put our hearts, souls and sweat into designing and developing custom AI - powered solutions for your business so you don't have to.</p>
+                        <p className="font-poppins mt-1 mb-4 max-md:text-center text-[#393939e6] rgba(57, 57, 57, .9)      ">We put our hearts, souls and sweat into designing and developing custom AI - powered solutions for your business so you don&apos;t have to.</p>
                         <div className="flex max-md:justify-center">
                             <button className="border border-primary rounded-[10px] mt-4 mb-20 text-primary py-[0.6rem] px-8 text-lg font-poppins">Learn More</button>
                         </div>
