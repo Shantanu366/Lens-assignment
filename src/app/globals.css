@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.home-nav-bg{
+  background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%)) !important;
+  background-clip: text !important;
+  color: transparent;
+}
+.linear-bg{
+  background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+
+}
+.polygon{
+  -webkit-clip-path: polygon(0 22.5%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 22.5%, 100% 0, 100% 100%, 0 100%);
+}
+
+.tru-animations {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%;
+    animation: TruAi_background-pan__wS4NA 2s linear infinite;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+@keyframes TruAi_background-pan__wS4NA {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+:root {
+    --tw-gradient-from: #9747ff;
+    --tw-gradient-from-position: 0%;
+    --tw-gradient-via: #2f80ed;
+    --tw-gradient-via-position: 50%;
+    --tw-gradient-to: #ee216b;
+    --tw-gradient-to-position: 100%;
+    --tw-gradient-stops: var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+}
+
+.client-animation{
+  animation: myAnimation 12s linear infinite;
+}
+
+@keyframes myAnimation {
+  0% {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+  50% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+  100% {
+      opacity: 0;
+      transform: translateX(100%);
+  }
+}
+
+.myAnimationClass {
+  animation: myAnimation 8s ease-in-out infinite;
+}
