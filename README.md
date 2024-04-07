@@ -5,5 +5,5 @@
 
 
 
- # STARTING PROJECTS
+ # STARTING PROJECT
  # Open this file with vs code or other code editors, open terminal, make sure in the root directory and run 'npm run dev' and open port 3000 on local host

@@ -20,7 +20,6 @@ export default function Employee() {
                 if (error) {
                     throw error;
                 }
-                // Ensure that data is not null before setting the state
                 if (data) {
                     setEmployees(data);
                 }
@@ -30,7 +29,7 @@ export default function Employee() {
             }
         }
         fetchEmployees();
-    }, []);
+    }, [employees]);
 
     if (error) {
         return <div>Error: {error}</div>;
